@@ -44,9 +44,33 @@ button:hover {
     background-color: #81beff;
     box-shadow: 0 0 20px #81beff;
 }
+
 h5{ font-size: 16px;
     color: rgb(139, 139, 139);
    text-align: left;
    text-shadow: 0 0 30px #ffffff;
    transform: translate(-600px, 30px);
+}
+
+main {
+    text-align: center;
+}
+
+
+h2 {
+        font-size: 30px;
+    font-weight: 800;
+    margin: 20px 0;
+    color: white;
+    }
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: rgb(159, 167, 169);
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
 }
