@@ -165,3 +165,102 @@ input[type="text"] {
     animation: fadeIn 0.5s ease forwards;
     animation-delay: 0.1s; /* Stagger the appearance slightly */
 }
+footer {
+    background-color: #163e5c69;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.footer-section {
+    margin: 10px 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #81beff;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: opacity 0.3s;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    margin-left: -20px; /* Adjust this value as needed */
+   }
+
+.social-media a:hover {
+    opacity: 0.7;
+}
+
+.footer-bottom {
+    border-top: 1px solid #81beff;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: #cccccc;
+    text-align: center;
+}
+
+h4{ font-size: 14px;
+    margin-top: -15px;
+    color: rgb(159, 167, 169);}
+
+    .Footerbtn {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .Footerbtn button {
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background-color: #1f5e8f;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 0 0 0px #81beff;
+        transition: 0.5s;
+        margin-left: -30px;
+    }
+    
+    .Footerbtn button:hover {
+        background-color: #81beff;
+        box-shadow: 0 0 20px #81beff;
+    }
+
