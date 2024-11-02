@@ -112,3 +112,39 @@ input[type="text"] {
     align-items: center;
 }
 
+/* Product grid styling */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between grid items */
+    margin-top: 20px; /* Margin above the grid */
+}
+
+/* Product item styling */
+.product-item {
+    background-color:  #14466c3b;; /* Background color for each product item */
+    border: 1px solid #0845a1; /* Border around product items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside product items */
+    text-align: center; /* Center align text */
+}
+
+.product-item img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Keep aspect ratio */
+}
+
+.product-item h3 {
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 20px #81beff;
+    margin: 10px 0; /* Add spacing if needed */
+    font-size: 1.5em; /* Adjust font size as needed */
+}
+.product-price {
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 20px #ff8581;
+    margin: 10px 0; /* Add spacing if needed */
+    font-size: 1.5em; /* Adjust font size as needed */
+}
